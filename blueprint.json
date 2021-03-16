@@ -4,22 +4,26 @@
 		"explanation": "envoy"
 	},
 	"bindings": [
+		{
+			"type": "embed",
+			"target": {
+				"repository": "https://github.com/v2Blueprints/enginesd_debian_base"
+			}
+		}
 	],
 	"system_packages": {
 		"adds": [
-		  "apt-transport-https",
-		   "ca-certificates", 
-		   "curl",
-		   "gnupg2",
-		    "software-properties-common"
+			"apt-transport-https",
+			"ca-certificates",
+			"curl",
+			"gnupg2",
+			"software-properties-common"
 		]
 	},
 	"other_packages": [
-	 
 	],
-	
 	"packing": {
-  },
+	},
 	"containers": [
 		{
 			"type": "lxd"
