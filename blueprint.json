@@ -1,0 +1,28 @@
+{
+	"about": {
+		"title": "envoy",
+		"explanation": "envoy"
+	},
+	"bindings": [
+	],
+	"system_packages": {
+		"adds": [
+		  "apt-transport-https",
+		   "ca-certificates", 
+		   "curl",
+		   "gnupg2",
+		    "software-properties-common"
+		]
+	},
+	"other_packages": [
+	 
+	],
+	
+	"packing": {
+  },
+	"containers": [
+		{
+			"type": "lxd"
+		}
+	]
+}
