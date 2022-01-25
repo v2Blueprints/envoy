@@ -3,9 +3,11 @@
 		"title": "envoy",
 		"explanation": "envoy"
 	},
-	"bindings": [
+	"images": [
 		{
-			"type": "embed",
+			"runtimes": [
+				"docker"
+			],
 			"target": {
 				"repository": "https://github.com/v2Blueprints/enginesd_debian_base"
 			}
@@ -19,14 +21,5 @@
 			"gnupg2",
 			"software-properties-common"
 		]
-	},
-	"other_packages": [
-	],
-	"packing": {
-	},
-	"containers": [
-		{
-			"type": "lxd"
-		}
-	]
+	}
 }
